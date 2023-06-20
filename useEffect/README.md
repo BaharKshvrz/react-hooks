@@ -1,5 +1,11 @@
-# React useStata Hook
+# React useEffect Hook
 
-useState is a React Hook that lets you add a state variable to your component.
+useEffect is a React Hook that lets you synchronize a component with an external system.
 
-const [state, setState] = useState(initialState);
+useEffect(setup, dependencies?)
+
+## Usage
+- Connecting to an external system
+- Wrapping Effects in custom Hooks 
+- Controlling a non-React widget 
+- Fetching data with Effects 
