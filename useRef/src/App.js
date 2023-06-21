@@ -1,6 +1,7 @@
 import "./App.css";
 import FocusOnElement from "./components/FocusOnElement";
 import KeepPreviousValue from "./components/KeepPreviousValue";
+import ParentForwardRef from "./components/ParentForwardRef";
 import TrackOfRendering from "./components/TrackOfRendering";
 
 function App() {
@@ -15,6 +16,9 @@ function App() {
        <hr/>  
        <h4>Keep Previous Element:</h4>
        <KeepPreviousValue/>
+       <br/>  
+       <hr/>  
+       <ParentForwardRef/>
     </div>
   );
 }
