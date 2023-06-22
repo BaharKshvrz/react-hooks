@@ -4,6 +4,7 @@ import ToggleComponent from "./components/3.useToggle/ToggleComponent";
 import TimeoutComponent from "./components/4.useTimeout/TimeoutComponent";
 import DebounceComponent from "./components/5.useDebounce/DebounceComponent";
 import UpdateEffectComponent from "./components/6.useUpdateEffect/UpdateEffectComponent";
+import ArrayComponent from "./components/7.useArray/ArrayComponent";
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
         <DebounceComponent/>
         <hr/>
         <UpdateEffectComponent/>
+        <hr/>
+        <ArrayComponent/>
     </div>
   );
 }
