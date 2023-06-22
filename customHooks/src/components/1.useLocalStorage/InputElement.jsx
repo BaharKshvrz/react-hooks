@@ -1,6 +1,6 @@
 import React from 'react'
 import useLocalStorage from './useLocalStorage';
-import useLogger from './useLogger';
+import useLogger from '../2.useLogger';
 
 const InputElement = () => {
   const [name, setName] = useLocalStorage("data", "");
