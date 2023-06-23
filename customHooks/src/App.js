@@ -1,4 +1,5 @@
 import "./App.css";
+import UseStorageComponent from "./components/10.useStorage/UseStorageComponent";
 // import InputElement from "./components/1.useLocalStorage/InputElement";
 // import ToggleComponent from "./components/3.useToggle/ToggleComponent";
 // import TimeoutComponent from "./components/4.useTimeout/TimeoutComponent";
@@ -21,11 +22,12 @@ function App() {
         <hr/>
         <UpdateEffectComponent/>
         <hr/>
-        <ArrayComponent/> */}
+        <ArrayComponent/> 
         <hr/>
         <PreviousComponent/>
         <hr/>
-        <StateWithHistoryComponent/>
+        <StateWithHistoryComponent/> */}
+        <UseStorageComponent/>
     </div>
   );
 }
