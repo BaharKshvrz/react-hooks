@@ -6,6 +6,7 @@ import "./App.css";
 // import UpdateEffectComponent from "./components/6.useUpdateEffect/UpdateEffectComponent";
 // import ArrayComponent from "./components/7.useArray/ArrayComponent";
 import PreviousComponent from "./components/8.usePrevious/PreviousComponent";
+import StateWithHistoryComponent from "./components/9.UseStateWithHistory/StateWithHistoryComponent";
 
 function App() {
   return (
@@ -23,6 +24,8 @@ function App() {
         <ArrayComponent/> */}
         <hr/>
         <PreviousComponent/>
+        <hr/>
+        <StateWithHistoryComponent/>
     </div>
   );
 }
