@@ -1,15 +1,16 @@
 import "./App.css";
-import InputElement from "./components/1.useLocalStorage/InputElement";
-import ToggleComponent from "./components/3.useToggle/ToggleComponent";
-import TimeoutComponent from "./components/4.useTimeout/TimeoutComponent";
-import DebounceComponent from "./components/5.useDebounce/DebounceComponent";
-import UpdateEffectComponent from "./components/6.useUpdateEffect/UpdateEffectComponent";
-import ArrayComponent from "./components/7.useArray/ArrayComponent";
+// import InputElement from "./components/1.useLocalStorage/InputElement";
+// import ToggleComponent from "./components/3.useToggle/ToggleComponent";
+// import TimeoutComponent from "./components/4.useTimeout/TimeoutComponent";
+// import DebounceComponent from "./components/5.useDebounce/DebounceComponent";
+// import UpdateEffectComponent from "./components/6.useUpdateEffect/UpdateEffectComponent";
+// import ArrayComponent from "./components/7.useArray/ArrayComponent";
+import PreviousComponent from "./components/8.usePrevious/PreviousComponent";
 
 function App() {
   return (
     <div className="App">
-        <InputElement/>
+        {/* <InputElement/>
         <hr/>
         <ToggleComponent/>
         <hr/>
@@ -19,7 +20,9 @@ function App() {
         <hr/>
         <UpdateEffectComponent/>
         <hr/>
-        <ArrayComponent/>
+        <ArrayComponent/> */}
+        <hr/>
+        <PreviousComponent/>
     </div>
   );
 }
