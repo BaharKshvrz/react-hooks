@@ -3,9 +3,13 @@ import { useEffect, useRef } from 'react'
 const useUpdateEffect = (callback, dependencies) => {
   const firstRenderedRef = useRef(true);
 
+  /*
+   generally useEffect runs on mount and every time that dependencies have changed
+   here we want to avoid the first time
+  */
    useEffect(() => {
       if (firstRenderedRef.current) {
-           console.log("indide if");
+           console.log("inside if");
           firstRenderedRef.current = false;
           return
       }

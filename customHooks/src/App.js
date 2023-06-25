@@ -2,6 +2,7 @@ import "./App.css";
 import UseStorageComponent from "./components/10.useStorage/UseStorageComponent";
 import AsyncComponent from "./components/11.useAsync/AsyncComponent";
 import FetchComponent from "./components/12.useFetch/FetchComponent";
+import ScriptComponent from "./components/13.useScript/ScriptComponent";
 // import InputElement from "./components/1.useLocalStorage/InputElement";
 // import ToggleComponent from "./components/3.useToggle/ToggleComponent";
 // import TimeoutComponent from "./components/4.useTimeout/TimeoutComponent";
@@ -31,9 +32,11 @@ function App() {
         <StateWithHistoryComponent/> 
         <UseStorageComponent/>
         <hr/>
-        <AsyncComponent/>*/}
+        <AsyncComponent/>
         <hr/>
-        <FetchComponent/>
+        <FetchComponent/>*/}
+        <hr/>
+        <ScriptComponent/>
     </div>
   );
 }
