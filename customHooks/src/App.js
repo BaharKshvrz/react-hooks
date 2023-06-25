@@ -1,5 +1,6 @@
 import "./App.css";
 import DeepCompareEffectComponent from "./components/14.useDeepCompareEffect/DeepCompareEffectComponent";
+import EventListenerComponent from "./components/15.useEventListener/EventListenerComponent";
 // import UseStorageComponent from "./components/10.useStorage/UseStorageComponent";
 // import AsyncComponent from "./components/11.useAsync/AsyncComponent";
 // import FetchComponent from "./components/12.useFetch/FetchComponent";
@@ -37,9 +38,11 @@ function App() {
         <hr/>
         <FetchComponent/>
         <hr/>
-        <ScriptComponent/>*/}
+        <ScriptComponent/>
         <hr/>
-        <DeepCompareEffectComponent/>
+        <DeepCompareEffectComponent/>*/}
+        <hr/>
+        <EventListenerComponent/>
     </div>
   );
 }
