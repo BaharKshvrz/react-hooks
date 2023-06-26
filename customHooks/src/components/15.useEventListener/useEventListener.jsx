@@ -7,6 +7,7 @@ const useEventListener = (
     ) => {
 
      const callbackRef = useRef(callback);
+     // first setup
      useEffect(() => {
         callbackRef.current = callback;
      }, [callback])
@@ -15,6 +16,7 @@ const useEventListener = (
         const handler = e => callbackRef.current(e)
         element.addEventListener(eventType, handler)
 
+        // clean up the listener
         return () => element.removeEventListener(eventType, handler)
      }, [eventType, element])
    }

@@ -8,6 +8,7 @@ import useEventListener from './useEventListener';
 */
 const EventListenerComponent = () => {
   const [key, setKey] = useState("");
+  
   useEventListener("keydown", e => {
     setKey(e.key)
   });  
