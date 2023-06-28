@@ -1,7 +1,9 @@
 import "./App.css";
 // import DeepCompareEffectComponent from "./components/14.useDeepCompareEffect/DeepCompareEffectComponent";
 // import EventListenerComponent from "./components/15.useEventListener/EventListenerComponent";
-import OnScreenComponent from "./components/16.useOnScreen/OnScreenComponent";
+// import OnScreenComponent from "./components/16.useOnScreen/OnScreenComponent";
+import WindowSizeComponent from "./components/17.useWindowSize/WindowSizeComponent";
+import MediaQueryComponent from "./components/18.useMediaQuery/MediaQueryComponent";
 // import UseStorageComponent from "./components/10.useStorage/UseStorageComponent";
 // import AsyncComponent from "./components/11.useAsync/AsyncComponent";
 // import FetchComponent from "./components/12.useFetch/FetchComponent";
@@ -43,8 +45,13 @@ function App() {
         <hr/>
         <DeepCompareEffectComponent/>
         <hr/>
-        <EventListenerComponent/>*/}
+        <EventListenerComponent/>
+        <hr/>
         <OnScreenComponent/>
+        <hr/>
+        <WindowSizeComponent/>*/}
+        <hr/>
+        <MediaQueryComponent/>
     </div>
   );
 }
