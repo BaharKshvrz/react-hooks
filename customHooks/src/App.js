@@ -6,6 +6,7 @@ import WindowSizeComponent from "./components/17.useWindowSize/WindowSizeCompone
 import MediaQueryComponent from "./components/18.useMediaQuery/MediaQueryComponent";
 import GeoLocationComponent from "./components/19.useGeoLocation/GeoLocationComponent";
 import StateWithValidationComponent from "./components/20.useStateWithValidation/StateWithValidationComponent";
+import UseSizeComponent from "./components/21.useSize/UseSizeComponent";
 // import UseStorageComponent from "./components/10.useStorage/UseStorageComponent";
 // import AsyncComponent from "./components/11.useAsync/AsyncComponent";
 // import FetchComponent from "./components/12.useFetch/FetchComponent";
@@ -55,9 +56,11 @@ function App() {
         <hr/>
         <MediaQueryComponent/>
         <hr/>
-        <GeoLocationComponent/>*/}
+        <GeoLocationComponent/>
         <hr/>
-        <StateWithValidationComponent/>
+        <StateWithValidationComponent/>*/}
+        <hr/>
+        <UseSizeComponent/>
     </div>
   );
 }
