@@ -8,6 +8,7 @@ import GeoLocationComponent from "./components/19.useGeoLocation/GeoLocationComp
 import StateWithValidationComponent from "./components/20.useStateWithValidation/StateWithValidationComponent";
 import UseSizeComponent from "./components/21.useSize/UseSizeComponent";
 import EffectOnceComponent from "./components/22.useEffectOnce/EffectOnceComponent";
+import ClickOutsideComponent from "./components/23.useClickOutside/ClickOutsideComponent";
 // import UseStorageComponent from "./components/10.useStorage/UseStorageComponent";
 // import AsyncComponent from "./components/11.useAsync/AsyncComponent";
 // import FetchComponent from "./components/12.useFetch/FetchComponent";
@@ -61,9 +62,11 @@ function App() {
         <hr/>
         <StateWithValidationComponent/>
         <hr/>
-        <UseSizeComponent/>*/}
+        <UseSizeComponent/>
         <hr/>
-        <EffectOnceComponent/>
+        <EffectOnceComponent/>*/}
+        <hr/>
+        <ClickOutsideComponent/>
     </div>
   );
 }
