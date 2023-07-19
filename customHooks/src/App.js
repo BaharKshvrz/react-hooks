@@ -12,6 +12,7 @@ import ClickOutsideComponent from "./components/23.useClickOutside/ClickOutsideC
 import DarkModeComponent from "./components/24.useDarkMode/DarkModeComponent";
 import CopyToClipboardComponent from "./components/25.useCopyToClipboard/CopyToClipboardComponent";
 import CookieComponent from "./components/26.useCookie/CookieComponent";
+import TranslationComponent from "./components/27.useTranslation/TranslationComponent";
 // import UseStorageComponent from "./components/10.useStorage/UseStorageComponent";
 // import AsyncComponent from "./components/11.useAsync/AsyncComponent";
 // import FetchComponent from "./components/12.useFetch/FetchComponent";
@@ -73,9 +74,11 @@ function App() {
        <hr/>
         <DarkModeComponent/>
        <hr/>
-       <CopyToClipboardComponent/>*/}
+       <CopyToClipboardComponent/>
        <hr/>
-       <CookieComponent/>
+       <CookieComponent/>*/}
+       <hr/>
+       <TranslationComponent/>
     </div>
   );
 }
