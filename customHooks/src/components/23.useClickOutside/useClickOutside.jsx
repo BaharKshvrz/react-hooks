@@ -13,7 +13,9 @@ const useClickOutside = (ref, cb) => {
    useEventListener(
       "mousedown",
       e => {
+        // inside of modal 
         if (ref.current == null || ref.current.contains(e.target)) return
+        // ouside of modal 
         cb(e)
        },
        document

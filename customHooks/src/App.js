@@ -9,6 +9,7 @@ import StateWithValidationComponent from "./components/20.useStateWithValidation
 import UseSizeComponent from "./components/21.useSize/UseSizeComponent";
 import EffectOnceComponent from "./components/22.useEffectOnce/EffectOnceComponent";
 import ClickOutsideComponent from "./components/23.useClickOutside/ClickOutsideComponent";
+import DarkModeComponent from "./components/24.useDarkMode/DarkModeComponent";
 // import UseStorageComponent from "./components/10.useStorage/UseStorageComponent";
 // import AsyncComponent from "./components/11.useAsync/AsyncComponent";
 // import FetchComponent from "./components/12.useFetch/FetchComponent";
@@ -64,9 +65,11 @@ function App() {
         <hr/>
         <UseSizeComponent/>
         <hr/>
-        <EffectOnceComponent/>*/}
+        <EffectOnceComponent/>
         <hr/>
-        <ClickOutsideComponent/>
+        <ClickOutsideComponent/>*/}
+       <hr/>
+        <DarkModeComponent/>
     </div>
   );
 }
