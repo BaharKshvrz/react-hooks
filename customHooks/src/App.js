@@ -11,6 +11,7 @@ import EffectOnceComponent from "./components/22.useEffectOnce/EffectOnceCompone
 import ClickOutsideComponent from "./components/23.useClickOutside/ClickOutsideComponent";
 import DarkModeComponent from "./components/24.useDarkMode/DarkModeComponent";
 import CopyToClipboardComponent from "./components/25.useCopyToClipboard/CopyToClipboardComponent";
+import CookieComponent from "./components/26.useCookie/CookieComponent";
 // import UseStorageComponent from "./components/10.useStorage/UseStorageComponent";
 // import AsyncComponent from "./components/11.useAsync/AsyncComponent";
 // import FetchComponent from "./components/12.useFetch/FetchComponent";
@@ -70,9 +71,11 @@ function App() {
         <hr/>
         <ClickOutsideComponent/>
        <hr/>
-        <DarkModeComponent/>*/}
+        <DarkModeComponent/>
        <hr/>
-       <CopyToClipboardComponent/>
+       <CopyToClipboardComponent/>*/}
+       <hr/>
+       <CookieComponent/>
     </div>
   );
 }
