@@ -17,6 +17,7 @@ import OnlineStatusComponent from "./components/28.useOnlineStatus/OnlineStatusC
 import RenderCountComponent from "./components/29.useRandomCount/RenderCountComponent";
 import DebugInformationComponent from "./components/30.useDebugInformation/DebugInformationComponent";
 import HoverComponent from "./components/31.useHover/HoverComponent";
+import UsePropsComponent from "./components/32.useLongPress/UsePropsComponent";
 // import UseStorageComponent from "./components/10.useStorage/UseStorageComponent";
 // import AsyncComponent from "./components/11.useAsync/AsyncComponent";
 // import FetchComponent from "./components/12.useFetch/FetchComponent";
@@ -88,9 +89,10 @@ function App() {
        <hr/>
        <RenderCountComponent/>
        <hr/>
-       <DebugInformationComponent/>*/}
+       <DebugInformationComponent/>
        <hr/>
-       <HoverComponent/>
+       <HoverComponent/>*/}
+       <UsePropsComponent/>
     </div>
   );
 }
