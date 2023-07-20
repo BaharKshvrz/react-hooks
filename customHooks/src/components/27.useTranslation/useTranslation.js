@@ -21,7 +21,6 @@ const useTranslation = () => {
 
 function getNestedTranslation(language, keys) {
   return keys.reduce((obj, key) => {
-  //  console.log(obj)
      return obj?.[key]
   }, translations[language])
 }
