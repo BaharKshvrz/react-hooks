@@ -14,6 +14,9 @@ import CopyToClipboardComponent from "./components/25.useCopyToClipboard/CopyToC
 import CookieComponent from "./components/26.useCookie/CookieComponent";
 import TranslationComponent from "./components/27.useTranslation/TranslationComponent";
 import OnlineStatusComponent from "./components/28.useOnlineStatus/OnlineStatusComponent";
+import RenderCountComponent from "./components/29.useRandomCount/RenderCountComponent";
+import DebugInformationComponent from "./components/30.useDebugInformation/DebugInformationComponent";
+import HoverComponent from "./components/31.useHover/HoverComponent";
 // import UseStorageComponent from "./components/10.useStorage/UseStorageComponent";
 // import AsyncComponent from "./components/11.useAsync/AsyncComponent";
 // import FetchComponent from "./components/12.useFetch/FetchComponent";
@@ -79,9 +82,15 @@ function App() {
        <hr/>
        <CookieComponent/>
        <hr/>
-       <TranslationComponent/>*/}
+       <TranslationComponent/>
        <hr/>
        <OnlineStatusComponent/>
+       <hr/>
+       <RenderCountComponent/>
+       <hr/>
+       <DebugInformationComponent/>*/}
+       <hr/>
+       <HoverComponent/>
     </div>
   );
 }
